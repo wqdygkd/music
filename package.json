@@ -1,0 +1,15 @@
+{
+  "name": "music",
+  "version": "1.8.0",
+  "description": "音乐搜索器",
+  "main": "index.js",
+  "scripts": {
+    "local": "vercel dev --debug --listen 3000",
+    "php": "php -S localhost:8000"
+  },
+  "author": "C",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^24.2.0"
+  }
+}

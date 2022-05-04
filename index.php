@@ -13,7 +13,7 @@
 define('MC_CORE', true);
 
 // 定义版本
-define('MC_VERSION', '1.6.2');
+define('MC_VERSION', '1.8.0');
 
 // 核心文件目录
 define('MC_CORE_DIR', __DIR__ . '/core');
@@ -22,7 +22,7 @@ define('MC_CORE_DIR', __DIR__ . '/core');
 define('MC_TEMP_DIR', __DIR__ . '/template');
 
 // 调试模式，0为关闭，-1为打开
-define('MC_DEBUG', 0);
+define('MC_DEBUG', E_ERROR | E_PARSE);
 
 // Curl 代理地址，例如：define('MC_PROXY', 'someproxy.com:9999')
 define('MC_PROXY', false);
@@ -43,14 +43,6 @@ if (version_compare(phpversion(), '5.4', '<')) {
     exit;
 }
 
-// 判断是否启用 Curl
-if (!extension_loaded('curl')) {
-    header('Content-type:text/html;charset=utf-8');
-    echo '<h3>程序运行失败：</h3><blockquote>请启用 Curl 模块</blockquote>';
-    exit;
-}
-
-
 include_once MC_CORE_DIR . '/music.php';
 
 // 支持的网站
@@ -59,14 +51,13 @@ $music_type_list = array(
     'qq'         => 'ＱＱ',
     'kugou'      => '酷狗',
     'kuwo'       => '酷我',
-    'xiami'      => '虾米',
-    'baidu'      => '百度',
+    'baidu'      => '千千',
     '1ting'      => '一听',
     'migu'       => '咪咕',
     'lizhi'      => '荔枝',
     'qingting'   => '蜻蜓',
     'ximalaya'   => '喜马拉雅',
-    'kg'         => '全民K歌',
+    'kg'    => '全民K歌',
     '5singyc'    => '5sing原创',
     '5singfc'    => '5sing翻唱'
 );

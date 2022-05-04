@@ -1,28 +1,20 @@
 # 音乐搜索器
 
-[![GitHub release](https://img.shields.io/github/release/maicong/music.svg?style=flat-square)](https://github.com/maicong/music/releases)
-[![PHP version](https://img.shields.io/badge/php-%3E%205.4-orange.svg)](https://github.com/php-src/php)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](#LICENSE)
-
 ## 说明
 
-**⚠️ 本项目已暂停维护，存档代码仅供学习交流，不得用于商业用途**
+多站合一音乐搜索解决方案，由麦葱（https://github.com/maicong/music/releases）开发，支持搜索试听以下网站音乐：
 
-多站合一音乐搜索解决方案，支持搜索试听以下网站音乐：
-
-[网易云音乐](http://music.163.com) [QQ音乐](http://y.qq.com) [酷狗音乐](http://www.kugou.com) [酷我音乐](http://www.kuwo.cn) [虾米音乐](http://www.xiami.com) [百度音乐](http://music.baidu.com) [一听音乐](http://www.1ting.com) [咪咕音乐](http://music.migu.cn) [荔枝FM](http://www.lizhi.fm) [蜻蜓FM](http://www.qingting.fm) [喜马拉雅FM](http://www.ximalaya.com) [全民K歌](http://kg.qq.com) [5sing原创](http://5sing.kugou.com/yc) [5sing翻唱](http://5sing.kugou.com/fc)
+[网易云音乐](http://music.163.com) [QQ音乐](http://y.qq.com) [酷狗音乐](http://www.kugou.com) [酷我音乐](http://www.kuwo.cn) [虾米音乐](http://www.xiami.com) [百度音乐](http://music.baidu.com) [一听音乐](http://www.1ting.com) [咪咕音乐](http://music.migu.cn) [荔枝FM](http://www.lizhi.fm) [蜻蜓FM](http://www.qingting.fm) [喜马拉雅FM](http://www.ximalaya.com) [5sing原创](http://5sing.kugou.com/yc) [5sing翻唱](http://5sing.kugou.com/fc)
 
 数据调用的是各网站的 API 接口，有的接口并不是开放的，随时可能失效，本项目相关代码仅供参考。
 
 ## 演示
 
-演示站点暂停维护，2018年11月01日起不再提供演示站点服务。
+http://music.wqdy.top
 
-如果有需要改进的地方，欢迎提交 [Pull Requests](https://github.com/maicong/music/pulls)
+## 部署
 
-## 下载
-
-[📦 下载开发版](https://github.com/maicong/music/archive/master.zip) [📦 获取稳定版](https://github.com/maicong/music/releases)
+<a href="https://vercel.com/new/clone?demo-description=音乐搜索器&amp;demo-title=音乐搜索器&amp;demo-url=https://music.wqdy.top&amp;project-name=music&amp;s=https://github.com/wqdygkd/music&amp;repository-name=music&amp;from=templates&amp;demo-image=https://og-image.vercel.app/**Vercel**%20%2B%20**PHP**.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg&images=https%3A%2F%2Fsimpleicons.vercel.app%2Fphp%2F595C96&heights=200&heights=350" rel="nofollow"><img src="https://camo.githubusercontent.com/5e471e99e8e022cf454693e38ec843036ec6301e27ee1e1fa10325b1cb720584/68747470733a2f2f76657263656c2e636f6d2f627574746f6e" height="24" data-canonical-src="https://vercel.com/button" style="max-width: 100%;"></a>
 
 ## 解决方案
 
