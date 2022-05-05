@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "local": "vercel dev --debug --listen 3000",
+    "prod": "vercel --prod ",
     "php": "php -S localhost:8000"
   },
   "author": "C",
